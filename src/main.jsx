@@ -10,9 +10,9 @@ import Login from './components/Login';
 import ArticlesPage from './components/ArticlesPage';
 
 import Nutrition from './components/Nutrition';
-import Resources from './components/Resources';
+import Resources from './components/resources';
 import TermsOfService from './components/TermsOfService';
-import PrivacyPolicy from './components/ProvacyPolicy';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import ContactUs from './components/Contacts';
 import VitalPlus from './components/VitalPlus';
 
@@ -22,6 +22,9 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout />,
     children: [
+      {
+        index: true, element: <Home />
+      },
       { path: "/calendar", element: <MyCalendar /> },
       { path: "/about", element: <About /> },
       { path: "/home", element: <Home /> },
