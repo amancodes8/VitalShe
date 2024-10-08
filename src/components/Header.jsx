@@ -11,7 +11,7 @@ function Header() {
         { label: 'Home', link: '/home' },
         { label: 'Login', link: '/login' },
         { label: 'About', link: '/about' },
-        { label: 'Services', link: '/services' },
+        { label: 'Vital+', link: '/plus' },
     ];
 
     const toggleMenu = () => {

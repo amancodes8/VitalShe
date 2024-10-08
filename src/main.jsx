@@ -8,7 +8,13 @@ import About from './components/About';
 import Home from './components/Home';
 import Login from './components/Login';
 import ArticlesPage from './components/ArticlesPage';
-import Services from './components/Services';
+
+import Nutrition from './components/Nutrition';
+import Resources from './components/Resources';
+import TermsOfService from './components/TermsOfService';
+import PrivacyPolicy from './components/ProvacyPolicy';
+import ContactUs from './components/Contacts';
+import VitalPlus from './components/VitalPlus';
 
 
 const router = createBrowserRouter([
@@ -21,7 +27,13 @@ const router = createBrowserRouter([
       { path: "/home", element: <Home /> },
       { path: "/login", element: <Login /> },
       { path: "/articles", element: <ArticlesPage /> },
-      { path: "/services", element: <Services /> },
+
+      { path: "/nutrition", element: <Nutrition /> },
+      { path: "/resources", element: <Resources /> },
+      { path: "/terms", element: <TermsOfService /> },
+      { path: "/privacy", element: <PrivacyPolicy /> },
+      { path: "/contact", element: <ContactUs /> },
+      { path: "/plus", element: <VitalPlus /> }
     ]
   }
 ]);

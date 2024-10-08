@@ -1,0 +1,86 @@
+{
+    "heroSection": {
+        "title": "Vital She: Empowering Women's Health",
+        "description": "Your one-stop destination for health resources, articles, and guidance. Empower yourself with the knowledge to live a healthy, happy life.",
+        "buttonText": "Explore Resources"
+    },
+    "missionSection": {
+        "title": "Our Mission",
+        "description": "Our mission is to provide you with reliable health information and guidance. Whether it's nutrition, fitness, or mental health, we are here to support your well-being every step of the way."
+    },
+    "articles": [
+        {
+            "id": 1,
+            "title": "Myth 1: Do Menstrual Cycles Sync When Women Live Together?",
+            "description": "This idea, known as \"menstrual synchrony,\" is largely unsupported by scientific evidence. Research shows that any perceived synchronization is more likely a coincidence than a biological phenomenon. The variations in cycle length and environmental factors lead to this perception, but studies have not found consistent evidence to back up the claim. The body’s natural rhythms aren’t influenced by proximity to other women, as previously thought.",
+            "image": "./images/1.jpeg",
+            "alt": "Nutrition"
+        },
+        {
+            "id": 2,
+            "title": "Myth 2: Is It Unhealthy to Skip Periods With Birth Control?",
+            "description": "It’s actually safe to skip periods when using hormonal contraceptives, like birth control pills, IUDs, or implants. These methods work by thinning the uterine lining, making periods lighter or even absent. Medical professionals agree that skipping periods with birth control does not negatively impact your health. In fact, it can reduce the risk of anemia, alleviate symptoms of endometriosis, and improve quality of life for women with painful periods.",
+            "image": "./images/2.jpeg",
+            "alt": "Mental Health"
+        },
+        {
+            "id": 3,
+            "title": "Myth 3: Does a Missed Period Always Mean Pregnancy?",
+            "description": "While pregnancy is a common cause, many other factors can result in a missed period. Stress, changes in weight, polycystic ovary syndrome (PCOS), excessive exercise, or thyroid problems can all disrupt the menstrual cycle. If missed periods occur regularly, it’s essential to consult a healthcare provider to investigate potential underlying health issues.",
+            "image": "./images/3.jpeg",
+            "alt": "Fitness"
+        },
+        {
+            "id": 4,
+            "title": "Myth 4: Are Painful Periods Normal for Everyone?",
+            "description": "While mild cramps are typical, severe pain that interferes with daily life is not. Intense cramps, especially those lasting beyond the first two days of the cycle, can indicate conditions such as endometriosis, fibroids, or adenomyosis. These conditions are treatable with medications, therapies, or minimally invasive surgery, and it’s important to seek help rather than accept excessive pain as the norm.",
+            "image": "./images/4.jpeg"
+        },
+        {
+            "id": 5,
+            "title": "Myth 5: Can Stress Affect Your Menstrual Cycle?",
+            "description": "In reality, stress can significantly impact your menstrual cycle. High stress levels trigger the release of hormones like cortisol, which can interfere with the reproductive hormones that regulate the menstrual cycle. This can lead to delayed periods or missed cycles entirely. It’s essential to manage stress levels for overall hormonal balance and regular menstrual cycles.",
+            "image": "./images/5.jpeg"
+        }
+    ],
+    "healthCategories": [
+        {
+            "id": 1,
+            "title": "Nutrition",
+            "description": "Discover the best dietary practices for a healthy life. Learn about balanced meals, essential nutrients, and superfoods."
+        },
+        {
+            "id": 2,
+            "title": "Mental Health",
+            "description": "Mental health is vital for a balanced life. Find resources and tools to improve your mental well-being and cope with stress."
+        },
+        {
+            "id": 3,
+            "title": "Fitness",
+            "description": "Stay active and fit with these simple workout routines designed for all ages. No gym required—just the will to move."
+        },
+        {
+            "id": 4,
+            "title": "Women's Health",
+            "description": "Women’s health requires special attention. Learn more about reproductive health, hormonal balance, and staying active."
+        },
+        {
+            "id": 5,
+            "title": "Healthy Aging",
+            "description": "Aging gracefully is possible with the right practices. Discover the best tips for maintaining health as you age."
+        },
+        {
+            "id": 6,
+            "title": "Healthy Aging",
+            "description": "Aging gracefully is possible with the right practices. Discover the best tips for maintaining health as you age."
+        }
+    ],
+    "womenHealthSection": {
+        "title": "Focus on Women's Health",
+        "description": "Women's health is unique. Learn about reproductive health, hormonal balance, and specific tips for maintaining well-being.",
+        "card": {
+            "title": "Take Control of Your Health",
+            "description": "Explore our specialized resources for women, focusing on physical and mental well-being."
+        }
+    }
+}
