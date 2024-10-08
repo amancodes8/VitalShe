@@ -10,7 +10,7 @@ import Login from './components/Login';
 import ArticlesPage from './components/ArticlesPage';
 
 import Nutrition from './components/Nutrition';
-import Resources from './components/resources';
+import Resources from './components/Resources';
 import TermsOfService from './components/TermsOfService';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ContactUs from './components/Contacts';
