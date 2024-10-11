@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 function Layout() {
     return (
-        <div className='flex flex-col bg-gradient-to-b from-re  w-screen h-screen overflow-x-hidden overflow-y-auto'>
+        <div className='flex flex-col w-screen bg-pink-500 h-screen overflow-x-hidden overflow-y-auto layout'>
             <Header />
             <Outlet />
         </div>

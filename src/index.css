@@ -30,3 +30,21 @@
 
 
 }
+
+.bg {
+    background: url(./images/bg.jpg) no-repeat center center;
+    background-size: cover; /* Ensures the image covers the entire background */
+    position: relative; /* For layering content over the background */
+    z-index: 10;
+    width: 100%; /* Ensures full width for all screens */
+    min-height: 100vh;
+    color: white; /* Adjust text color for readability */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, .5); /* Adds text shadow for better contrast */
+}
+
+@media (max-width: 768px) {
+    .bg {
+        background-size: contain; /* On smaller screens, image fits better */
+        padding: 20px; /* Adds padding to ensure the content doesn't touch screen edges */
+    }
+}

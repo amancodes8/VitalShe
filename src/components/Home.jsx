@@ -25,9 +25,10 @@ const Home = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 w-screen">
       {/* Hero Section */}
-      <section className="bg-pink-100 py-16">
+   <div className="bg w-screen h-screen flex">
+   <section className=" py-16 mt-20">
         <div className="container mx-auto px-6 text-center">
           <h1 className="text-5xl sm:text-7xl font-bold text-gray-800 mb-4 updock-regular">
             Vital She: Empowering Women's Health
@@ -42,7 +43,7 @@ const Home = () => {
       </section>
 
       {/* Community Engagement Section */}
-      <section className="py-16">
+      {/* <section className="py-16">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-semibold text-gray-800 mb-4">
             Community Engagement
@@ -54,7 +55,8 @@ const Home = () => {
             Get Involved
           </button>
         </div>
-      </section>
+      </section> */}
+   </div>
 
       {/* Featured Articles Section */}
       <section className="bg-gray-100 py-16">

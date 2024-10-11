@@ -39,7 +39,7 @@ function Header() {
 
     return (
         <div>
-            <div className='Navbar flex w-screen h-16 items-center justify-between px-0 py-1 mt-1'>
+            <div className='Navbar flex w-screen h-16 items-center justify-between px-0 mt-1 bg-pink-500 text-white'>
                 <NavLink to="/">
                     <img className='h-12 w-12 ml-6 rounded-full' src="/images/logo.png" alt="logo" />
                 </NavLink>
@@ -51,7 +51,7 @@ function Header() {
                             key={index}
                             to={item.link}
                             className={({ isActive }) =>
-                                `p-2 font-serif text-xl items-center ${isActive ? 'text-blue-700 border-b-2 border-blue-700' : 'text-black hover:text-blue-500'}`
+                                `text-white p-2 font-serif text-xl items-center ${isActive ? 'text-blue-700 border-b-2 border-blue-700' : 'text-black hover:text-blue-500'}`
                             }
                         >
                             {item.label}
